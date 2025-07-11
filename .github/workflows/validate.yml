@@ -1,0 +1,35 @@
+name: Validate
+
+on:
+  push:
+    branches: [main, demo]
+  pull_request:
+    branches: [main, demo]
+
+jobs:
+  validate:
+    name: Validate Files
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Validate HTML
+        run: |
+          # Check that required files exist
+          test -f index.html || exit 1
+          test -f 404.html || exit 1
+          test -d assets || exit 1
+          
+          echo "✓ All required files present"
+      
+      - name: Check file sizes
+        run: |
+          # Check that no single file is too large (>10MB)
+          find . -type f -size +10M -exec echo "Large file found: {}" \; | grep -q . && exit 1 || echo "✓ No oversized files"
+      
+      - name: Validate paths
+        run: |
+          # Check that all paths use /lumiTest/ prefix
+          grep -r "src=\"/" . --include="*.html" --include="*.js" | grep -v "/lumiTest/" | grep -q . && echo "Found absolute paths without /lumiTest/ prefix" && exit 1 || echo "✓ All paths properly prefixed"
