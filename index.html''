@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luminate Wealth AI - Institutional-Grade Investment Intelligence</title>
+    <meta name="description" content="Finally, institutional-grade investment intelligence for everyone. Built by a wealth manager with 20+ years experience managing ultra-high-net-worth portfolios at private banks in Switzerland and a CERN physicist with 14 years of Machine Learning Experience." />
+    <meta name="author" content="Luminate Wealth AI" />
+
+    <meta property="og:title" content="Luminate Wealth AI - Institutional-Grade Investment Intelligence" />
+    <meta property="og:description" content="Finally, institutional-grade investment intelligence for everyone. Built by a wealth manager with 20+ years experience managing ultra-high-net-worth portfolios at private banks in Switzerland and a CERN physicist with 14 years of Machine Learning Experience." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@luminatewealth" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <link rel="icon" href="/lumiTest/lovable-uploads/c862161d-79a7-4352-9383-6c7506283d07.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/lumiTest/assets/index-XtCsQyXQ.js"></script>
+    <link rel="modulepreload" crossorigin href="/lumiTest/assets/react-vendor-3SHlCM2T.js">
+    <link rel="modulepreload" crossorigin href="/lumiTest/assets/ui-vendor-D8bZVR4_.js">
+    <link rel="modulepreload" crossorigin href="/lumiTest/assets/utils-ol-7ZbgH.js">
+    <link rel="stylesheet" crossorigin href="/lumiTest/assets/index-DsWU8Ho5.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
